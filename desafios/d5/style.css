@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    background-color:#b161d9 ;
+}
+div {
+    background-color:white;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: #2d2b4a;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-indent: 1em;
+}
+p {
+    text-indent: 1em;
+}
+img#ftperfil {
+    margin: 1em;
+    border: thin solid #2d2b4a;
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+    border-bottom-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color:rgb(61, 139, 61);
+    color: white;
+}
+h1 {
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    border-style: inset;
+    
+}
+div {
+    background-color:black;
+    border-radius: 15px;
+    border-style: inset;  
+}
+div#Citações {
+    background: rgb(0, 0, 0);
+    text-align: justify;
+}
+h2#t {
+    text-align: center;
+}
+footer {
+    font-family: Arial;
+    text-align: center;
+}

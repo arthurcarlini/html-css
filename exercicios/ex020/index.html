@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div.d{
+            display: inline-block;
+            background-color: blueviolet;
+            text-align: center;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+        }
+        div.d:hover {
+            background-color: black;
+            color: blueviolet;
+        }
+        div#aqui:hover {
+            color: #8a2be2;
+        }
+        div > p {
+            display: none;
+        }
+            div:hover > p {
+                display: block;
+                color: yellow;
+                background-color: blueviolet;
+                font-weight: bold;
+                width: max-content;
+            } 
+    </style>
+    <title>Pseudo-classes</title>
+</head>
+<body>
+    <div class="d">01</div>
+    <div class="d">02</div>
+    <div class="d">03</div>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse no texto abaixo</p>
+    <div id="aqui">
+        Aqui
+        <p>TEXTO ESCONDIDO!</p>
+    </div>
+</body>
+</html>

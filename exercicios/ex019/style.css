@@ -1,0 +1,23 @@
+body {
+    background-color: aliceblue;
+}
+h1#titulo {
+    font-size: 3em;
+}
+.principal {
+    font-size: 2em;
+    color: pink;
+    }
+.basico {
+    color: green;
+}
+.medio {
+    color: yellow;
+}
+.avançado {
+    color: red;
+}
+span {
+    font-weight: 900;
+    font-size: 4em;
+}
